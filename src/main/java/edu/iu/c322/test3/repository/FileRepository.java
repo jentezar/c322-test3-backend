@@ -3,7 +3,6 @@ package edu.iu.c322.test3.repository;
 import edu.iu.c322.test3.model.Question;
 import edu.iu.c322.test3.model.Quiz;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
@@ -16,7 +15,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository
+@Component
 public class FileRepository {
     private String IMAGES_FOLDER_PATH = "quizzes/questions/images";
     private static final String NEW_LINE = System.lineSeparator();

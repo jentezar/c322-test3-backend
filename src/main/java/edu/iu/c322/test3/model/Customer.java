@@ -1,6 +1,5 @@
 package edu.iu.c322.test3.model;
 
-
 public class Customer {
 
     private String username;
@@ -21,9 +20,11 @@ public class Customer {
     public String getUsername() {
         return username;
     }
+
     public void setUsername(String username) {
         this.username = username;
     }
+
     public String getPassword() {
         return password;
     }
